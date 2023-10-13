@@ -1,0 +1,205 @@
+body {
+    background-color:#2CD3E1 ;
+    
+}
+
+
+nav {
+    background-color: #f3f3f3;
+    box-shadow: 2px 2px 20px #313886;  
+    font-family: 'chewy';  
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+nav button {
+    margin-right: 10px
+}
+
+
+
+nav div {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav div div a:hover {
+    background-color: #404bbd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.navbar-link {
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+#title {
+    font-family: 'chewy';
+    
+}
+
+.title1{
+    color: #fefefe;
+}
+.title2{
+    color: #F266AB;
+}
+
+.title3{
+    color: #fefefe;
+}
+
+
+
+.btn-custom { 
+    font-size: 16px;
+    color: #ffffff; 
+    background-color: #F266AB; 
+}
+
+.btn-custom:hover {
+    background-color: #c93f84;
+    color: #eee;
+}
+.logo {
+    color: rgb(223, 223, 223);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.judul {
+    color: #eee;
+    margin-top: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#nusastories {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#nusastories-layout {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#nusastories-2 {
+    
+    background-color: #f3f3f3;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#nusastories-layout-2  {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#asset-layout-2 {
+    margin-left: 7%;
+}
+.title {
+    margin-bottom: 3%;
+    color: #070707;
+}
+
+#nusastories-layout-2 .title1 {
+    color: #070707;
+    font-family: 'chewy';
+}
+#nusastories-layout-2 .title2 {
+    color: #070707;
+    font-family: 'league spartan';
+    font-weight: bold;
+}
+
+/* about nusa */
+#aboutnusa {
+    background-color: #A459D1;
+    color: #fefefe;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#aboutnusa h2  {
+    font-family: 'chewy';
+}
+#aboutnusa h4  {
+    font-family: 'chewy';
+}
+
+#aboutnusa p {
+    font-family: 'league spartan';
+    font-weight: 500;
+}
+
+#aboutnusa .col {
+    padding: 50px;
+}
+
+/* tim nusa */
+#timnusa {
+    background-color: #fefefe;
+    padding: 5% ;
+    font-family: 'chewy';
+}
+
+#timnusa .row {
+    margin-top: 5%;
+}
+#timnusa p {
+    font-family:'league spartan';
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e ;
+    color: #fefefe;
+    font-family: 'chewy';
+    padding: 3%;
+}
+
+footer .logofooter {
+    margin-right: 50px;
+}
+
+footer h4 {
+    padding-left: 16px;
+}
+
+footer .navlink {
+    
+}
+
+footer .flex-column {
+    line-height: 0.5;
+}
+
+footer .text-light {
+    font-family: 'league spartan';
+    font-weight: 500;
+}
+
+footer hr {
+    border: #070707;
+}
+footer .credit {
+    line-height: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
