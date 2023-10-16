@@ -8,17 +8,15 @@ body {
   padding-left: 60px;
   padding-right: 30px;
   font-family: "chewy";
-  min-width: 100%;
-  display: flex;
-  text-align: center;
   box-shadow: 2px 2px 20px #313886;
 }
 
 .nav-logo {
-  width: 40px; /* Sesuaikan ukuran logo sesuai kebutuhan */
-  height: 40px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+  width: 40px; 
+  height: 40px; 
   margin-right: 5px; /* Menambahkan jarak antara logo dan teks */
 }
+
 
 .navbar-nav.ml-auto {
   margin-right: 20px;
@@ -29,9 +27,15 @@ body {
 }
 .navbar .nav-link {
   font-size: 15px;
+  text-align: center;
 }
 .navbar-nav .nav-link:hover {
-  color: black;
+  background-color: #404bbd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 /* login-Form */
