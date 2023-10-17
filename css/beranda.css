@@ -1,0 +1,80 @@
+body {
+  background-color: #f3f3f3;
+}
+nav {
+  background-color: #f3f3f3;
+  box-shadow: 2px 2px 20px #313886;
+  font-family: "chewy";
+}
+
+/* home */
+
+#home {
+  background-color: #2cd3e1;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.judul {
+  font-family: "chewy";
+  text-align: center;
+  color: #f3f3f3;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+}
+nav button {
+  margin-right: 10px;
+}
+
+nav div {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+nav div div a:hover {
+  background-color: #404bbd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: #fefefe;
+  font-family: "chewy";
+  padding: 3%;
+}
+
+footer .logofooter {
+  margin-right: 50px;
+}
+
+footer h4 {
+  padding-left: 16px;
+}
+
+/* footer .navlink {
+} */
+
+footer .flex-column {
+  line-height: 0.5;
+}
+
+footer .text-light {
+  font-family: "league spartan";
+  font-weight: 500;
+}
+
+footer hr {
+  border: #070707;
+}
+footer .credit {
+  line-height: 5px;
+  display: flex;
+  justify-content: space-between;
+}

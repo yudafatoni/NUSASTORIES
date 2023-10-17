@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nusastories</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- font google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chewy" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/login.css" />
+
+    <!-- Logo title -->
+    <link rel="icon" href="assets/logo.png" type="image/x-icon" width="30px" height="30px"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="logo" width="80" height="80" /></a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container custom-text-color">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#">
+                <img src="assets/beranda.png" alt="Home" class="nav-logo" />
+                <br>Beranda
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">
+                <img src="assets/edukasi.png" alt="Edukasi" class="nav-logo" />
+                <br>Edukasi
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">
+                <img src="assets/galeri.png" alt="galeri" class="nav-logo" />
+                <br>Galeri
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">
+                <img src="assets/permainan.png" alt="Permainan" class="nav-logo" />
+                <br>Permainan
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">
+                <img src="assets/cerita.png" alt="Cerita Interaktif" class="nav-logo" />
+                <br>Cerita
+              </a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <div class="row">
+          <div class="col-md-4 d-flex-inline justify-content-end img-fluid">
+            <img src="assets/girl.png" alt="Left Image" class="img-girl" />
+          </div>
+
+          <!-- form -->
+
+          <div class="col-md-4 container mt-4 d-flex justify-content-center align-items-center"">
+          <div class="card login-form mx-auto">
+            <div class="card-body">
+              <h5 class="welcome">Welcome to Nusastories</h5>
+              <h2 class="card-title mb-4">Log in</h2>
+              <form class="formLogin">
+                <div class="mb-2">
+                  <label for="exampleInputEmail1" class="form-label">Enter your username or email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username or email" />
+                </div>
+                <div class="mb-2">
+                  <label for="exampleInputPassword1" class="form-label">Enter your Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                </div>
+                <div class="d-flex justify-content-end mt-2 text">
+                  <a href="#" class="lupa">Forgot Password?</a>
+                </div>
+
+                <div class="d-grid mt-3">
+                  <button type="submit" class="btn btn-custom"><img src="assets/google.png" class="google" alt="google" />Log in with Google</button>
+                </div>
+                <div class="d-grid mt-3">
+                  <button type="submit" class="btn btn-custom">Log in</button>
+                </div>
+
+                <div class="belumpunya d-flex flex-column align-items-center mt-4">
+                  <label for="Belum">No Account?</label>
+                  <a href="signup.html">Sign Up</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex-inline justify-content-start img-fluid">
+          <img src="assets/boy.png" alt="Right Image" class="img-boy" />
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="text-white text-center py-4 mt-3" style="background-color: black;">
+        <div class="container">
+          <div class="row">
+            <hr style="font-weight: bold;">
+            <div class="col d-flex justify-content-lg-start">
+              <img src="assets/footer.png" alt="Footer Image" class="mx-2" />
+            </div>
+            <div class="col d-flex justify-content-end">
+              <img src="assets/terms.png" alt="Terms Image" class="mx-2" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>
