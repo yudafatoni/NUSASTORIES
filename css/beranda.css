@@ -1,25 +1,12 @@
 body {
   background-color: #f3f3f3;
+  height: 100vh;
 }
 nav {
   background-color: #f3f3f3;
   box-shadow: 2px 2px 20px #313886;
   font-family: "chewy";
-}
-
-/* home */
-
-#home {
-  background-color: #2cd3e1;
-  padding-top: 7%;
-  padding-bottom: 7%;
-}
-
-.judul {
-  font-family: "chewy";
   text-align: center;
-  color: #f3f3f3;
-  padding-top: 30px;
 }
 
 .navbar-brand {
@@ -43,10 +30,270 @@ nav div div a:hover {
   -o-border-radius: 5px;
 }
 
+/* home */
+
+#home {
+  background-color: #2cd3e1;
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+
+#img-home {
+  border-radius: 20px;
+}
+
+.deskripsi {
+  font-family: "chewy";
+  text-align: center;
+  color: #f3f3f3;
+  padding-top: 30px;
+}
+
+.deskripsi-content {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Edukasi {
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.judul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Chewy";
+  width: 220px;
+  height: 52px;
+  border-radius: 25px;
+  background-color: #f3f3f3;
+  /* margin-bottom: 20px; */
+  border: 1px solid;
+  color: #070707;
+}
+
+.container .sub-judul {
+  justify-content: center;
+  height: 52px;
+  border: 5px;
+  border-radius: 18px;
+  box-shadow: #070707;
+  font-family: "chewy";
+  background-color: #a459d1;
+  text-align: center;
+  line-height: 100%;
+  color: #f3f3f3;
+  width: 1350px;
+}
+
+.card {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+.card-img-top {
+  background-color: #2cd3e1;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.img {
+  border-radius: 10px 10px 10px 10px;
+}
+.card-body {
+  font-family: "Chewy";
+  background-color: #2cd3e1;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card-title {
+  color: #f3f3f3;
+  padding: auto;
+}
+
+.btn-custom {
+  background-color: #a459d1;
+  color: #f3f3f3;
+  height: 30px;
+  width: 70px;
+  border-radius: 25px;
+  align-items: center;
+  box-shadow: #404bbd 5%;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Tambahkan efek box-shadow ke tombol */
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-custom:active {
+  transform: scale(1.1);
+}
+
+.btn-custom:hover {
+  background-color: #2cd3e1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ubah efek box-shadow saat menghover tombol */
+}
+
+/* galeri */
+#galeri {
+  background-color: #a459d1;
+}
+
+.container .img {
+  margin-top: 5px;
+}
+
+.btn-galeri {
+  background-color: #2cd3e1;
+  color: #f3f3f3;
+  height: 30px;
+  width: 120px;
+  border-radius: 25px;
+  font-family: "Chewy";
+  align-items: center;
+  box-shadow: #404bbd 5%;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Tambahkan efek box-shadow ke tombol */
+  transition: box-shadow 0.3s ease;
+}
+.btn-galeri:active {
+  transform: scale(1.1);
+}
+
+.btn-galeri:hover {
+  background-color: #a459d1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ubah efek box-shadow saat menghover tombol */
+}
+
+/* permainan */
+
+.kotak {
+  background-color: #2cd3e1;
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  font-family: "Chewy";
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-permainan {
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.btn-permainan {
+  background-color: #a459d1;
+  color: #f3f3f3;
+  height: 30px;
+  width: 120px;
+  border-radius: 25px;
+  font-family: "Chewy";
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Tambahkan efek box-shadow ke tombol */
+  transition: box-shadow 0.3s ease;
+}
+
+.btn-permainan:active {
+  transform: scale(1.1);
+}
+
+.btn-permainan:hover {
+  background-color: #2cd3e1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ubah efek box-shadow saat menghover tombol */
+}
+
+/* cerita */
+#cerita {
+  background-color: #a459d1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cerita .card-title {
+  color: #070707;
+}
+#cerita .card-body {
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.btn-cerita {
+  background-color: #a459d1;
+  color: #f3f3f3;
+  height: 30px;
+  width: 70px;
+  border-radius: 25px;
+  float: inline-end;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Tambahkan efek box-shadow ke tombol */
+  transition: box-shadow 0.3s ease;
+}
+.btn-cerita:active {
+  transform: scale(1.1);
+}
+
+.btn-cerita:hover {
+  background-color: #2cd3e1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ubah efek box-shadow saat menghover tombol */
+}
+
+#dongeng {
+  background-color: #a459d1;
+}
+
+#dongeng .card-body {
+  background-color: #f3f3f3;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* literasi  */
+#literasi {
+  background-color: #f3f3f3;
+}
+
+#literasi .card {
+  background-color: #a459d1;
+  color: #f3f3f3;
+}
+#literasi .card-body {
+  background-color: #a459d1;
+}
+
+.btn-literasi {
+  background-color: #2cd3e1;
+  color: #f3f3f3;
+  height: 30px;
+  width: 70px;
+  border-radius: 25px;
+  transition: 0.2s;
+  box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3); /* Tambahkan efek box-shadow ke tombol */
+  transition: box-shadow 0.3s ease;
+}
+.btn-literasi:active {
+  transform: scale(1.1);
+}
+
+.btn-literasi:hover {
+  background-color: #a459d1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ubah efek box-shadow saat menghover tombol */
+}
+
+#literasi .row {
+  margin-top: 20px;
+  margin-left: 20px;
+}
 /* Footer */
 footer {
   background-color: #1e1e1e;
-  color: #fefefe;
+  color: #f3f3f3;
   font-family: "chewy";
   padding: 3%;
 }
