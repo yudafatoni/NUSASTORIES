@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --isi-font-family: "League Spartan";
+    --isi-font-weight: 400;
+    --isi-font-size: 20px;
+    --isi-letter-spacing: -0.3799999952316284px;
+    --isi-line-height: 150%;
+    --isi-font-style: normal;
+    --judul-font-family: "Chewy";
+    --judul-font-weight: 400;
+    --judul-font-size: 40px;
+    --judul-letter-spacing: -0.8px;
+    --judul-line-height: 150%;
+    --judul-font-style: normal;
+    --subjudul-font-family: "Chewy";
+    --subjudul-font-weight: 400;
+    --subjudul-font-size: 32px;
+    --subjudul-letter-spacing: -0.64px;
+    --subjudul-line-height: 150%;
+    --subjudul-font-style: normal;
+    --tombol-font-family: "Chewy";
+    --tombol-font-weight: 400;
+    --tombol-font-size: 20px;
+    --tombol-letter-spacing: -0.3799999952316284px;
+    --tombol-line-height: 150%;
+    --tombol-font-style: normal;
+    --float: 4px 5px 10px 0px rgba(0, 0, 0, 0.35);
+    --variable-collection-warna-4: rgba(44, 211, 225, 1);
+    --variable-collection-warna-5: rgba(27, 156, 133, 1);
+    --variable-collection-white: rgba(243, 243, 243, 1);
+    --variable-collection-black: rgba(30, 30, 30, 1);
+}
+
+nav {
+    background-color: #f3f3f3;
+    box-shadow: 2px 2px 10px #313886;  
+    font-family: var(--subjudul-font-family);  
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+nav button {
+    margin-right: 10px
+}
+
+
+
+nav div {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+nav div div a:hover {
+    background-color: #404bbd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.navbar-link {
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #A459D1;
+    font-family: var(--subjudul-font-family);
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.cover-photo{
+    margin-top: -8px;
+}
+.hero-title{
+    margin-top: 30px;
+    text-align: center;
+    font-family: var(--fontjudul-font-family);
+    margin-bottom: 40px;
+}
+.lit-parent{
+    margin: 40px 40px 40px 40px;
+    line-height: 2;
+    font-family: var(--isi-font-family);
+}
+.lit-parent p{
+    font-weight: bolder;
+}
+footer{
+    background-color: #1e1e1e;
+    margin-top: 20px;
+}
+.hr{
+    margin-top: 20px;
+    background-color: #f3f3f3;
+}
+.terms-cr{
+    display: flex;
+    justify-content: space-around;
+    color: #f3f3f3;
+}

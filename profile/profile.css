@@ -1,0 +1,141 @@
+
+
+/* Navbar */
+nav {
+    background-color: #f3f3f3;
+    box-shadow: 2px 2px 20px #313886;  
+    font-family: 'chewy';  
+  }
+  
+  .navbar-brand {
+    padding-left: 50px;
+  }
+  nav button {
+    margin-right: 10px
+  }
+  
+  
+  
+  nav div {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  nav div div a:hover {
+    background-color: #2CD3E1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  
+  .navbar-link {
+    margin-right: 30px;
+  }
+  
+  .nav-link{
+    text-align: center;
+  }
+
+/* profile */
+
+#profile{
+    padding: 50px;
+    background-color: #f3f3f3;
+    font-family: 'chewy';
+}
+
+#profile .col {
+    margin-top: auto;
+    margin-bottom: 70px;   
+}
+
+#profile .profile {
+    margin-left: 15% ;
+    padding-bottom: 10%;
+    
+}
+
+#profile .profilepic
+{
+    width: 400px;
+    height: auto;
+    box-shadow: 3px 3px 10px;
+    border-radius: 4px;
+   
+}
+
+
+  
+/* riwayat kunjungan */
+
+.riwayat {
+  background-color: #f3f3f3;
+  padding: 10px ;
+  margin-left: 2%;
+  margin-right: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#card-riwayat {
+    background-color: #A459D1;
+    padding: 30px;
+    font-family: 'chewy';
+}
+
+#card-riwayat p {
+    font-family: 'league spartan';
+    font-weight:700;
+}
+#card-riwayat .row  .col {
+    margin: 20px;
+}
+
+
+
+
+
+
+  /* Footer */
+footer {
+    background-color: #1e1e1e ;
+    color: #fefefe;
+    font-family: 'chewy';
+    padding: 3%;
+}
+
+footer .logofooter {
+    margin-right: 50px;
+}
+
+footer h4 {
+    padding-left: 16px;
+}
+
+
+
+footer .flex-column {
+    line-height: 0.5;
+}
+
+footer .text-light {
+    font-family: 'league spartan';
+    font-weight: 500;
+}
+
+footer hr {
+    border: #070707;
+}
+footer .credit {
+    line-height: 5px;
+    display: flex;
+    justify-content: space-between;
+}
