@@ -5,24 +5,24 @@ const quizData = [
         correct: "Jakarta",
     },
     {
-        question: "rendang merupakan makanan khas dari daerah ?",
-        options: ["jawa barat", "kalimantan", "sumatra", "ambon"],
-        correct: "sumatra"
+        question: "Rendang merupakan makanan khas dari daerah?",
+        options: ["Jawa Barat", "Kalimantan", "Sumatra", "Ambon"],
+        correct: "Sumatra"
     },
     {
-        question: "siapakah president pertama republik indonesia",
+        question: "Siapakah presiden pertama Republik Indonesia?",
         options: ["Joko Widodo", "Prabowo Subianto", "Susilo Bambang Yudhoyono", "Soekarno"],
         correct: "Soekarno"
     },
     {
-        question: "dari daerah manakah asal alat musik angklung berada",
-        options: ["jawa", "sulawesi", "papua", "riau"],
-        correct: "jawa"
+        question: "Dari daerah manakah asal alat musik angklung berada?",
+        options: ["Jawa", "Sulawesi", "Papua", "Riau"],
+        correct: "Jawa"
     },
     {
-        question: "tradisi kebo-keboan berasal dari daerah?",
-        options: ["Banyuasin", "boyolali", "lamongan", "banyuwangi"],
-        correct: "banyuwangi"
+        question: "Tradisi kebo-keboan berasal dari daerah?",
+        options: ["Banyuasin", "Boyolali", "Lamongan", "Banyuwangi"],
+        correct: "Banyuwangi"
     }
 ];
 
@@ -42,7 +42,7 @@ function loadQuestion() {
 
     currentQuiz.options.forEach((option, index) => {
         const label = document.createElement("label");
-        label.innerHTML = `<input type="radio" name="answer" value="${option}"> Jawaban ${String.fromCharCode(65 + index)}: ${option}`;
+        label.innerHTML = `<input type="radio" name="answer" value="${option}" /> ${String.fromCharCode(65 + index)}. ${option}`;
         optionsElement.appendChild(label);
     });
 }
@@ -67,7 +67,7 @@ function checkAnswer() {
     if (currentQuestion < quizData.length) {
         loadQuestion();
     } else {
-        questionElement.textContent = "Quiz selesai!, Wah kamu Hebat Kembangkan terus ya!!";
+        questionElement.textContent = "Quiz selesai! Wah kamu Hebat, kembangkan terus ya!!";
         optionsElement.innerHTML = "";
         nextButton.style.display = "none";
         scoreElement.textContent = `Skor Akhir: ${score} dari ${quizData.length}`;

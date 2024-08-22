@@ -5,224 +5,250 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="icon" href="assets1/logo.png" type="image/x-icon" width="30px" height="30px"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style1.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=League+Spartan:wght@200&display=swap" rel="stylesheet">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Chewy&family=League+Spartan:wght@200&display=swap');
+      body {
+          font-family: 'League Spartan', sans-serif;
+      }
+      .navbar-brand img {
+          width: 60px;
+          height: 60px;
+      }
+      .nav-logo {
+          width: 40px;
+          height: 40px;
+      }
+      #title .col img {
+          max-width: 100%;
+          height: auto;
+      }
+      #aboutnusa .col img {
+          width: 50px;
+          margin-right: 10px;
+      }
+      #timnusa .col img {
+          width: 80px;
+          margin-bottom: 10px;
+      }
+      .footer img {
+          width: 30px;
+          margin-right: 10px;
+      }
+      .btn-custom {
+          background-color: #007bff;
+          color: rgb(223, 223, 223);;
+          border-radius: 20px;
+      }
     </style>
 </head>
 <body>
-  <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="">
-        <img src="assets1/logo.png" alt="logo" width="80" height="80" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="container custom-text-color">
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav text">
-              <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="../login.html">
-                  <img src="assets1/beranda.png" alt="Home" class="nav-logo" /> <br>
-                  Beranda
-                </a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="../login.html">
-                  <img src="assets1/edukasi.png" alt="Edukasi" class="nav-logo" /> <br>
-                  Edukasi
-                </a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="../login.html">
-                  <img src="assets1/galeri.png" alt="galeri" class="nav-logo" />
-                  <br>
-                  Galeri
-                </a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link " href="../login.html">
-                  <img src="assets1/permainan.png" alt="Permainan" class="nav-logo" /> <br>
-                  Permainan
-                </a>
-              </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link" href="../login.html">
-                  <img src="assets1/cerita.png" alt="Cerita Interaktif" class="nav-logo" /> <br>
-                  Cerita
-                </a>
-              </li>
-              
-              
-            </ul>
-          </div>
-        </div>
-      </nav>
-      
-      <!-- Title -->
-    <section id="title">  
-      <div class="container" id="nusastories">
-        <div class="row">
-          <div class="col" id="nusastories-layout">
-            <h2 class="title1">Selamat Datang di</h2>
-            <h2 class="title2">NusaStories</h2>
-            <h5 class="title3">Ayo Pelajari Indonesia dengan berbagai fitur kami!</h5>
-            <a href="../login.html">
-              <button type="button" class="btn btn-custom">Mulai</button>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets1/logo.png" alt="logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="../login.html">
+              <img src="assets1/beranda.png" alt="Home" class="nav-logo" /><br>Beranda
             </a>
-          </div>
-          <div class="col">
-            <img src="/assets1/peta indo 1.png" alt="">
-          </div>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../login.html">
+              <img src="assets1/edukasi.png" alt="Edukasi" class="nav-logo" /><br>Edukasi
+            </a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../login.html">
+              <img src="assets1/galeri.png" alt="Galeri" class="nav-logo" /><br>Galeri
+            </a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../login.html">
+              <img src="assets1/permainan.png" alt="Permainan" class="nav-logo" /><br>Permainan
+            </a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="../login.html">
+              <img src="assets1/cerita.png" alt="Cerita Interaktif" class="nav-logo" /><br>Cerita
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title Section -->
+  <section id="title" class="py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h2 class="title1">Selamat Datang di</h2>
+          <h2 class="title2">NusaStories</h2>
+          <h5 class="title3 mb-4">Ayo Pelajari Indonesia dengan berbagai fitur kami!</h5>
+          <a href="../login.html">
+            <button type="button" class="btn btn-custom">Mulai</button>
+          </a>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="assets1/peta indo 1.png" alt="Peta Indonesia" class="img-fluid">
         </div>
       </div>
-    </section>  
-    
-    <section id="nusastories-2">
-      <div class="container-xxl" >
-        <div class="row">
-          <div class="col" id="asset-layout-2">
-            <img src="/assets1/Group 87.png" alt="">
-          </div>
-          <div class="col" id="nusastories-layout-2">
-            <h2 class="title1">Apa itu NusaStories</h2>
-            <h5 class="title2">Nusa Stories adalah platform edukasi interaktif yang dirancang khusus untuk anak usia dini. Dengan Nusa Stories, anak-anak dapat belajar tentang berbagai aspek budaya Indonesia dengan cara yang menarik dan mudah dipahami.</h5>
-          </div>
+    </div>
+  </section>
+
+  <!-- Apa itu NusaStories Section -->
+  <section id="nusastories-2" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center">
+          <img src="assets1/Group 87.png" alt="NusaStories" class="img-fluid">
+        </div>
+        <div class="col-lg-6 text-lg-start">
+          <h2 class="title1">Apa itu NusaStories</h2>
+          <h5 class="title2">Nusa Stories adalah platform edukasi interaktif yang dirancang khusus untuk anak usia dini. Dengan Nusa Stories, anak-anak dapat belajar tentang berbagai aspek budaya Indonesia dengan cara yang menarik dan mudah dipahami.</h5>
         </div>
       </div>
-    </section>
-    
-    <!--About Nusa -->
-    <section id="aboutnusa">
-      <div class="container">
-        <div class="row align-content-center" >
-          <h2 class="text-center">Apa yang ada di NusaStories</h2>
-          <div class="col" rules="cols">
-            <ul style="list-style: none;">
-              <li>
-                <h4> <img src="/assets1/Sejarah-icon.png" style="padding-right:20px ;" alt="">Sejarah</h4>
-                <p>Selami Kisah Seru Sejarah Indonesia dengan Semangat yang Membara di Nusa Stories</p>
-              </li>
-              <li>
-                <h4> <img src="/assets1/budaya-icon.png" style="padding-right:20px ;" alt="">Budaya</h4>
-                <p>Mari memulai petualangan seru belajar tentang keindahan dan kekayaan budaya Indonesia.</p>
-              </li>
-              <li>
-                <h4> <img src="/assets1/dongeng-icon.png" style="padding-right:20px ;" alt=""> Dongeng & Mitos </h4>
-                  <p>Menjaga Warisan Kekayaan Dongeng dan Mitos Turun Temurun Indonesia dalam Gaya Visual Modern di Nusa Stories! </p>
-              </li>
-            </ul>
-          </div>
-          <div class="col ">
-            <ul style="list-style: none;">
-              <li>
-                <h4> <img src="/assets1/games.png" style="padding-right:20px ;" alt="">Games</h4>
-                <p>Temukan fakta-fakta menarik tentang Indonesia dan uji pengetahuan Anda dengan tantangan seru!</p>
-              </li>
-              <li>
-                <h4> <img src="/assets1/cerita-icon.png" style="padding-right:20px ;" alt="">Cerita Interaktif</h4>
-                <p>Berpetualang dalam Cerita Interaktif yang Menginspirasi, Memompa Kreativitas, dan Membakar Imajinasi di Nusa Stories!</p>
-              </li>
-              <li>
-                <h4> <img src="/assets1/parenting-icon.png" style="padding-right:20px ;" alt="">Parenting</h4>
-                <p>Menyajikan Artikel Terkini seputar Parenting untuk Mempermudah Orang Tua dalam Mengembangkan Wawasan Terhadap Dunia Anak.</p>
-              </li>
-            </div>
+    </div>
+  </section>
+
+  <!-- Apa yang ada di NusaStories Section -->
+  <section id="aboutnusa" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Apa yang ada di NusaStories</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <ul class="list-unstyled">
+            <li class="mb-4">
+              <h4><img src="assets1/Sejarah-icon.png" alt="Sejarah"> Sejarah</h4>
+              <p>Selami Kisah Seru Sejarah Indonesia dengan Semangat yang Membara di Nusa Stories</p>
+            </li>
+            <li class="mb-4">
+              <h4><img src="assets1/budaya-icon.png" alt="Budaya"> Budaya</h4>
+              <p>Mari memulai petualangan seru belajar tentang keindahan dan kekayaan budaya Indonesia.</p>
+            </li>
+            <li>
+              <h4><img src="assets1/dongeng-icon.png" alt="Dongeng & Mitos"> Dongeng & Mitos</h4>
+              <p>Menjaga Warisan Kekayaan Dongeng dan Mitos Turun Temurun Indonesia dalam Gaya Visual Modern di Nusa Stories!</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <ul class="list-unstyled">
+            <li class="mb-4">
+              <h4><img src="assets1/games.png" alt="Games"> Games</h4>
+              <p>Temukan fakta-fakta menarik tentang Indonesia dan uji pengetahuan Anda dengan tantangan seru!</p>
+            </li>
+            <li class="mb-4">
+              <h4><img src="assets1/cerita-icon.png" alt="Cerita Interaktif"> Cerita Interaktif</h4>
+              <p>Berpetualang dalam Cerita Interaktif yang Menginspirasi, Memompa Kreativitas, dan Membakar Imajinasi di Nusa Stories!</p>
+            </li>
+            <li>
+              <h4><img src="assets1/parenting-icon.png" alt="Parenting"> Parenting</h4>
+              <p>Menyajikan Artikel Terkini seputar Parenting untuk Mempermudah Orang Tua dalam Mengembangkan Wawasan Terhadap Dunia Anak.</p>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Tim Nusa -->
-    <section id="timnusa">
-      <div class="container">
-        <h2 class="text-center">Tim Kami</h2>
-        <div class="row align-content-center">
-          <div class="col text-center">
-            <img src="assets1/tim1.png" alt=""> <br>
-            <h4>Ahmed</h4>  <p>Psikolog Anak</p>
-          </div>
-          <div class="col text-center">
-            <img src="assets1/tim2.png" alt=""> 
-            <h4>Alea</h4> <p>Animator/Ilustrator</p>
-          </div>
-          <div class="col text-center">
-            <img src="assets1/tim3.png" alt=""> 
-            <h4>James</h4> <P>Budayawan/Sejarawan</P>
-          </div>
+  <!-- Tim Kami Section -->
+  <section id="timnusa" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Tim Kami</h2>
+      <div class="row text-center">
+        <div class="col-lg-4 mb-4">
+          <img src="assets1/tim1.png" alt="Ahmed" class="img-fluid mb-2">
+          <h4>Ahmed</h4>
+          <p>Psikolog Anak</p>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img src="assets1/tim2.png" alt="Alea" class="img-fluid mb-2">
+          <h4>Alea</h4>
+          <p>Animator/Ilustrator</p>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <img src="assets1/tim3.png" alt="Nara" class="img-fluid mb-2">
+          <h4>Nara</h4>
+          <p>Ahli Budaya Indonesia</p>
         </div>
       </div>
-    </section>
-    
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col logofooter" >
-            <img src="assets1/logofooter.png" alt="">
-          </div>
-          <div class="col">
-            <h4>Layanan Kami</h4>
-            <ul class="nav flex-column" >
-              <li class="nav">
-                <a class="nav-link text-light "  href="#">Edukasi</a>
-              </li>
-              <li class="nav">
-                <a class="nav-link text-light" href="#">Parenting</a>
-              </li>
-              <li class="nav">
-                <a class="nav-link text-light" href="#">Cerita Interaktif</a>
-              </li>
-              
-            </ul>
-          </div>
-          <div class="col">
-            <h4>Tentang Kami</h4>
-            <ul class="nav flex-column">
-              <li class="nav">
-                <a class="nav-link text-light "  href="#">Tentang NusaStories</a>
-              </li>
-              <li class="nav">
-                <a class="nav-link text-light" href="#">Tim Kami</a>
-              </li>
-              <li class="nav">
-                <a class="nav-link text-light" href="#">Ketentuan Pengguna</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h4>Bantuan</h4>
-            <ul class="nav flex-column">
-              <li class="nav">
-                <a class="nav-link text-light "  href="#">Hubungi Kami</a>
-              </li>
-              <li class="nav">
-                <a class="nav-link text-light" href="#">Peta Situs</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h4>Ikuti Kami</h4>
-            <img src="assets1/yt-icon.png" alt="">
-            <img src="assets1/ig-icon.png" alt="">
-            <img src="/assets1/fb-icon.png" alt="">
-            <img src="/assets1/tt-icon.png" alt="">
+    </div>
+  </section>
 
-
-          </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 logofooter" >
+          <img src="assets1/logofooter.png" alt="">
+        </div>
+        <div class="col-lg-2">
+          <h4>Layanan Kami</h4>
+          <ul class="nav flex-column" >
+            <li class="nav">
+              <a class="nav-link text-light "  href="#">Edukasi</a>
+            </li>
+            <li class="nav">
+              <a class="nav-link text-light" href="#">Parenting</a>
+            </li>
+            <li class="nav">
+              <a class="nav-link text-light" href="#">Cerita Interaktif</a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h4>Tentang Kami</h4>
+          <ul class="nav flex-column">
+            <li class="nav">
+              <a class="nav-link text-light "  href="#">Tentang NusaStories</a>
+            </li>
+            <li class="nav">
+              <a class="nav-link text-light" href="#">Tim Kami</a>
+            </li>
+            <li class="nav">
+              <a class="nav-link text-light" href="#">Ketentuan Pengguna</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h4>Bantuan</h4>
+          <ul class="nav flex-column">
+            <li class="nav">
+              <a class="nav-link text-light "  href="#">Hubungi Kami</a>
+            </li>
+            <li class="nav">
+              <a class="nav-link text-light" href="#">Peta Situs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Ikuti Kami</h4>
+          <img src="assets1/yt-icon.png" alt="">
+          <img src="assets1/ig-icon.png" alt="">
+          <img src="/assets1/fb-icon.png" alt="">
+          <img src="/assets1/tt-icon.png" alt="">
         </div>
       </div>
-      <hr>
-      <div class="credit">
-        <p>&copy;2023|NusaStories</p>
-        <p>Terms of USe-Privacy Policy-Supply Chain Information-Ad Choices-Sitemap</p>
-      </div>
-    </footer>
+    </div>
+    <hr>
+    <div class="col-sm-12 col-md-6 col-lg-12 credit d-flex justify-content-between flex-wrap text-center text-md-start">
+      <p class="mb-2">&copy;2023 | NusaStories</p>
+      <p class="mt-2">Terms of Use - Privacy Policy - Supply Chain Information - Ad Choices - Sitemap</p>
+    </div>
+  </footer>
 
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
 </html>
